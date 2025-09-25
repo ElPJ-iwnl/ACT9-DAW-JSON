@@ -1,0 +1,16 @@
+:root {
+  --topbar-height: 56px;
+}
+
+.sidebar {
+  height: calc(100vh - var(--topbar-height));
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: var(--topbar-height);
+}
+
+.table-responsive { border-radius: .5rem; }
+.chart-placeholder { min-height: 140px; display: flex; align-items: center; }
