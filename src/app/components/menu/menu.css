@@ -1,6 +1,3 @@
-/* Si ya defines .sidebar en app.css, puedes dejar vacío.
-   Si lo quieres aquí, pega los estilos del sidebar: */
-
 .sidebar {
   position: fixed;
   top: 48px;

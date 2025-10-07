@@ -11,5 +11,5 @@ import { Contact } from '../contact-list/contact-list';
   `
 })
 export class ContactRow {
-  @Input({ required: true }) contact!: Contact;
+  @Input({ required: true }) contact!: Contact;
 }
