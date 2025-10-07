@@ -16,7 +16,7 @@ export class ContactList implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<{ contacts: Contact[] }>('contacts.json').subscribe({
+    this.http.get<{ contacts: Contact[] }>('data/contacts.json').subscribe({
       next: data => {
         this.contacts = data.contacts;
       },
