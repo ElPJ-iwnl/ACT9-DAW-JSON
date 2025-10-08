@@ -1,6 +1,6 @@
 [
   { "id": 1, "name": "Maria Lopez", "email": "maria.lopez@example.com" },
-  { "id": 2, "name": "Carlos Ruiz", "email": "carlos.ruiz@example.com" },
+  { "id": 2, "name": "Pedro Ruiz", "email": "carlos.ruiz@example.com" },
   { "id": 3, "name": "Ana Gomez", "email": "ana.gomez@example.com" },
   { "id": 4, "name": "Luis Fernandez", "email": "luipepepes.fernandez@example.com" }
 ]
