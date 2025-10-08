@@ -16,12 +16,12 @@ export class ContactList implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<{ contacts: Contact[] }>('data/contacts.json').subscribe({
-      next: data => {
-        this.contacts = data.contacts;
+    this.http.get<Contact[]>('data/contacts.json').subscribe({
+      next: (data) => {
+        this.contacts = data;
       },
-      error: err => {
-        console.error('Error cargando contacts.json', err);
+      error: (err) => {
+        console.error('Error cargando data/contacts.json', err);
       }
     });
   }

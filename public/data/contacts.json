@@ -1,9 +1,6 @@
-{
-  "contacts": [
-    { "id": 1, "name": "Maria Lopez",    "email": "maria.lopez@example.com" },
-    { "id": 2, "name": "Carlos Ruiz",    "email": "carlos.ruiz@example.com" },
-    { "id": 3, "name": "Ana Gomez",      "email": "ana.gomez@example.com" },
-    { "id": 4, "name": "Luis Fernandez", "email": "luis.fernandez@example.com" },
-    { "id": 5, "name": "Sofia Martinez", "email": "test@gmail.com"}
-  ]
-}
+[
+  { "id": 1, "name": "Maria Lopez", "email": "maria.lopez@example.com" },
+  { "id": 2, "name": "Carlos Ruiz", "email": "carlos.ruiz@example.com" },
+  { "id": 3, "name": "Ana Gomez", "email": "ana.gomez@example.com" },
+  { "id": 4, "name": "Luis Fernandez", "email": "luis.fernandez@example.com" }
+]
